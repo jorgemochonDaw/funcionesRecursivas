@@ -1,0 +1,14 @@
+{
+    "name": "koke/funciones-recursividad",
+    "description": "ejercicios de funciones de recursivdad",
+    "authors": [{
+        "name": "jore mochon bernal",
+        "email": "bernalmochonjorge@gmail.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "./clases"
+        }
+    }
+}
