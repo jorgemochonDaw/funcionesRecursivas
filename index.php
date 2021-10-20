@@ -36,6 +36,18 @@
                 ?>
             </p>
         </section>
+        <section>
+            <h2>Comparar arrays</h2>
+            <p>
+                <?php
+                $n1->array1(1, 1, 1, 1, 1);
+                $n1->array2(1, 1, 1, 1, 1);
+                $n1->compararArrays();
+                $n1->lista(1, 12, 91, 91, 4);
+                echo $n1->compararNumeroIndice(91);
+                ?>
+            </p>
+        </section>
     </main>
 </body>
 
